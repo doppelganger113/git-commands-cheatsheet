@@ -39,3 +39,8 @@ Pick commit and add to current branch. In this example, add commit to master
   - creating tagged commit
      - ```git tag -a <tag_name> -m "<message>"```
      - ```git push origin <tag_name>```
+
+#### Fetching pretty git logs for releases
+```bash
+git log --oneline v1.0.0...v1.1.2
+```
